@@ -1,1 +1,1 @@
-# x-ring
+#[ModKit Wiki](../../wiki)

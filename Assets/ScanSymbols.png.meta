@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: e852595231a553847b7ff081ea8e5e7c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ScanSymbols_0
+    21300002: ScanSymbols_1
+    21300004: ScanSymbols_2
+    21300006: ScanSymbols_3
+    21300008: ScanSymbols_4
+    21300010: ScanSymbols_5
+    21300012: ScanSymbols_6
+    21300014: ScanSymbols_7
+    21300016: ScanSymbols_8
+    21300018: ScanSymbols_9
+    21300020: ScanSymbols_10
+    21300022: ScanSymbols_11
+    21300024: ScanSymbols_12
+    21300026: ScanSymbols_13
+    21300028: ScanSymbols_14
+    21300030: ScanSymbols_15
+    21300032: ScanSymbols_16
+    21300034: ScanSymbols_17
+    21300036: ScanSymbols_18
+    21300038: ScanSymbols_19
+    21300040: ScanSymbols_20
+    21300042: ScanSymbols_21
+    21300044: ScanSymbols_22
+    21300046: ScanSymbols_23
+    21300048: ScanSymbols_24
+    21300050: ScanSymbols_25
+    21300052: ScanSymbols_26
+    21300054: ScanSymbols_27
+    21300056: ScanSymbols_28
+    21300058: ScanSymbols_29
+    21300060: ScanSymbols_30
+    21300062: ScanSymbols_31
+    21300064: ScanSymbols_32
+    21300066: ScanSymbols_33
+    21300068: ScanSymbols_34
+    21300070: ScanSymbols_35
+    21300072: ScanSymbols_36
+    21300074: ScanSymbols_37
+    21300076: ScanSymbols_38
+    21300078: ScanSymbols_39
+    21300080: ScanSymbols_40
+    21300082: ScanSymbols_41
+    21300084: ScanSymbols_42
+    21300086: ScanSymbols_43
+    21300088: ScanSymbols_44
+    21300090: ScanSymbols_45
+    21300092: ScanSymbols_46
+    21300094: ScanSymbols_47
+    21300096: ScanSymbols_48
+    21300098: ScanSymbols_49
+    21300100: ScanSymbols_50
+    21300102: ScanSymbols_51
+    21300104: ScanSymbols_52
+    21300106: ScanSymbols_53
+    21300108: ScanSymbols_54
+    21300110: ScanSymbols_55
+    21300112: ScanSymbols_56
+    21300114: ScanSymbols_57
+    21300116: ScanSymbols_58
+    21300118: ScanSymbols_59
+    21300120: ScanSymbols_60
+    21300122: ScanSymbols_61
+    21300124: ScanSymbols_62
+    21300126: ScanSymbols_63
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScanSymbols_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_2
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_3
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_4
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_5
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_6
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_7
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2646
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_10
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_11
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_12
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_13
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_14
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_15
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2268
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_18
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_19
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_20
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_21
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_22
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_23
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1890
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_25
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_26
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_27
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_28
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_29
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_30
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_31
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1512
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_33
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_34
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_35
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_36
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_37
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_38
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_39
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1134
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_41
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_42
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_43
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_44
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_45
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_46
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_47
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 756
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_50
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_51
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_52
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_53
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_54
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_55
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 378
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_57
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_58
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_59
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_60
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_61
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_62
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ScanSymbols_63
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 0
+        width: 378
+        height: 378
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
