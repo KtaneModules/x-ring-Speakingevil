@@ -36,15 +36,15 @@ public class XRingScript : MonoBehaviour {
             centre[i] = Random.Range(2, 13);
         int[,] pos = new int[4, 2];
         int[] bounds = new int[2] { Mathf.Min(centre[0], 14 - centre[0]), Mathf.Min(centre[1], 14 - centre[1]) };
-        int[][] offsets = new int[2][] { new int[2], new int[2]};
+        int[][] offsets = new int[2][] { new int[2], new int[2] };
         while (offsets[0][0] % 2 != centre[0] % 2 || offsets[0][1] % 2 != centre[1] % 2 || (offsets[0][0] == 0 && offsets[0][1] == 0))
-            offsets[0] = new int[2] { Random.Range(-bounds[0], bounds[0] + 1), Random.Range(-bounds[1], bounds[1] + 1)};
-        while(offsets[1][0] % 2 != centre[0] % 2 || offsets[1][1] % 2 != centre[1] % 2 || ((offsets[0][0] == 0 ? 30 : (float)offsets[0][1] / offsets[0][0]) == (offsets[1][0] == 0 ? 30 : (float)offsets[1][1] / offsets[1][0])) || (offsets[1][0] == 0 && offsets[1][1] == 0))
+            offsets[0] = new int[2] { Random.Range(-bounds[0], bounds[0] + 1), Random.Range(-bounds[1], bounds[1] + 1) };
+        while (offsets[1][0] % 2 != centre[0] % 2 || offsets[1][1] % 2 != centre[1] % 2 || ((offsets[0][0] == 0 ? 30 : (float)offsets[0][1] / offsets[0][0]) == (offsets[1][0] == 0 ? 30 : (float)offsets[1][1] / offsets[1][0])) || (offsets[1][0] == 0 && offsets[1][1] == 0))
             offsets[1] = new int[2] { Random.Range(-bounds[0], bounds[0] + 1), Random.Range(-bounds[1], bounds[1] + 1) };
-        pos = new int[4, 2] { {centre[0] - offsets[0][0],  centre[1] - offsets[0][1]}, { centre[0] + offsets[0][0], centre[1] + offsets[0][1]}, { centre[0] - offsets[1][0], centre[1] - offsets[1][1]}, { centre[0] + offsets[1][0], centre[1] + offsets[1][1]} };
+        pos = new int[4, 2] { { centre[0] - offsets[0][0], centre[1] - offsets[0][1] }, { centre[0] + offsets[0][0], centre[1] + offsets[0][1] }, { centre[0] - offsets[1][0], centre[1] - offsets[1][1] }, { centre[0] + offsets[1][0], centre[1] + offsets[1][1] } };
         for (int i = 0; i < 4; i++)
             symbselect[i] = (pos[i, 0] * 4) + (pos[i, 1] / 2);
-        symbselect[4] = Remain(symbselect.Take(4).ToArray());
+        symbselect[4] = Remain(centre, offsets);
         Debug.LogFormat("[X-Ring #{0}] The scanned symbols are: {1}", moduleID, string.Join(", ", order.Select(x => "ABCDEFGH"[symbselect[x] % 8] + ((symbselect[x] / 8) + 1).ToString()).ToArray()));
         Debug.LogFormat("[X-Ring #{0}] Press the button when the {1} display is shown.", moduleID, new string[] { "first", "second", "third", "fourth", "fifth"}[order.IndexOf(4)]);
         button.OnInteract = delegate () 
@@ -72,31 +72,32 @@ public class XRingScript : MonoBehaviour {
         StartCoroutine(Spiral());
     }
 
-    private int Remain(int[] v)
+    private int Remain(int[] centre, int[][] offsets)
     {
-        v = v.OrderBy(x => x).ToArray();
         List<int> w = Enumerable.Range(0, 64).Except(symbselect).ToList();
-        int[] r = v.Select(x => x / 8).ToArray();
-        int[] c = v.Select(x => x % 8).ToArray();
+        Debug.Log("Verts: " + Enumerable.Range(0, 4).Select(x => "(" + ((symbselect[x] % 8) + 1).ToString() + "," + ((symbselect[x] / 8) + 1).ToString() + ")").Join());
         int[,] deny = new int[8, 2]
         {
-            { r[0] - Mathf.Abs(r[1] - r[0]), c[0] - Mathf.Abs(c[1] - c[0])},
-            { r[1] + Mathf.Abs(r[1] - r[0]), c[1] + Mathf.Abs(c[1] - c[0])},
-            { r[0] - Mathf.Abs(r[2] - r[0]), c[0] - Mathf.Abs(c[2] - c[0])},
-            { r[2] + Mathf.Abs(r[2] - r[0]), c[2] + Mathf.Abs(c[2] - c[0])},
-            { r[1] - Mathf.Abs(r[3] - r[1]), c[1] - Mathf.Abs(c[3] - c[1])},
-            { r[3] + Mathf.Abs(r[3] - r[1]), c[3] + Mathf.Abs(c[3] - c[1])},
-            { r[2] - Mathf.Abs(r[3] - r[2]), c[2] - Mathf.Abs(c[3] - c[2])},
-            { r[3] + Mathf.Abs(r[3] - r[2]), c[3] + Mathf.Abs(c[3] - c[2])}
+            { centre[0] - ((2 * offsets[0][0]) + offsets[1][0]), centre[1] - ((2 * offsets[0][1]) + offsets[1][1]) },
+            { centre[0] - ((2 * offsets[1][0]) + offsets[0][0]), centre[1] - ((2 * offsets[1][1]) + offsets[0][1]) },
+            { centre[0] - ((2 * offsets[0][0]) - offsets[1][0]), centre[1] - ((2 * offsets[0][1]) - offsets[1][1]) },
+            { centre[0] - ((2 * offsets[1][0]) - offsets[0][0]), centre[1] - ((2 * offsets[1][1]) - offsets[0][1]) },
+            { centre[0] + ((2 * offsets[0][0]) + offsets[1][0]), centre[1] + ((2 * offsets[0][1]) + offsets[1][1]) },
+            { centre[0] + ((2 * offsets[1][0]) + offsets[0][0]), centre[1] + ((2 * offsets[1][1]) + offsets[0][1]) },
+            { centre[0] + ((2 * offsets[0][0]) - offsets[1][0]), centre[1] + ((2 * offsets[0][1]) - offsets[1][1]) },
+            { centre[0] + ((2 * offsets[1][0]) - offsets[0][0]), centre[1] + ((2 * offsets[1][1]) - offsets[0][1]) }
         };
         for(int i = 0; i < 8; i++)
         {
+            deny[i, 0] /= 2;
+            deny[i, 1] /= 2;
             if (deny[i, 0] < 0 || deny[i, 0] > 7 || deny[i, 1] < 0 || deny[i, 1] > 7)
                 continue;
             int d = (deny[i, 0] * 8) + deny[i, 1];
             if (w.Contains(d))
                 w.Remove(d);
         }
+        Debug.Log("Remove " + Enumerable.Range(0, 8).Select(x => "(" + (deny[x, 1] + 1).ToString() + "," + (deny[x, 0] + 1).ToString() + ")").Join());
         return w.PickRandom();
     }
 
@@ -134,7 +135,7 @@ public class XRingScript : MonoBehaviour {
     }
 
 #pragma warning disable 414
-    private readonly string TwitchPlaysHelpMessage = "!{0} <A-H><1-5> [Presses button when the specified symbol is displayed.]";
+    private readonly string TwitchHelpMessage = "!{0} <A-H><1-5> [Presses button when the specified symbol is displayed.]";
 #pragma warning restore 414
 
     private IEnumerator ProcessTwitchCommand(string command)
@@ -153,7 +154,7 @@ public class XRingScript : MonoBehaviour {
             yield break;
         }
         yield return null;
-        while (symbselect[order[disp]] != coord)
+        while (disp > 4 || symbselect[order[disp]] != coord)
             yield return "trycancel";
         button.OnInteract();
     }
@@ -161,7 +162,7 @@ public class XRingScript : MonoBehaviour {
     private IEnumerator TwitchHandleForcedSolve()
     {
         yield return null;
-        while (order[disp] != 4)
+        while (disp > 4 || order[disp] != 4)
             yield return true;
         button.OnInteract();
     }
